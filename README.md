@@ -1,6 +1,20 @@
 # readme-score
 
+[![CI](https://github.com/natori-hrj/readme-score/actions/workflows/ci.yml/badge.svg)](https://github.com/natori-hrj/readme-score/actions)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 README.md の品質を 100 点満点でスコアリングする CLI ツール。ローカルファイルと GitHub リポジトリ URL の両方に対応。
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [スコアリング項目](#スコアリング項目)
+- [技術スタック](#技術スタック)
+- [Development](#development)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Installation
 
@@ -64,6 +78,16 @@ readme-score --url https://github.com/user/repo
 pip install -e ".[dev]"
 python -m pytest tests/ -v
 ```
+
+## Contributing
+
+Issue や Pull Request を歓迎します。
+
+1. このリポジトリを Fork する
+2. フィーチャーブランチを作成する (`git checkout -b feature/my-feature`)
+3. 変更をコミットする (`git commit -m 'feat: add my feature'`)
+4. ブランチを Push する (`git push origin feature/my-feature`)
+5. Pull Request を作成する
 
 ## License
 
